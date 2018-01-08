@@ -1,0 +1,196 @@
+@font-face {
+ font-family: 'iransans';
+ src: url('../fonts/iransans.eot?#') format('eot'), url('../fonts/iransans.woff') format('woff'), url('../fonts/iransans.ttf') format('truetype');
+ font-weight: normal;
+}
+body {
+	background:#e5e5e5;
+	direction:rtl;
+	font:13px "iransans", Tahoma, Arial;
+}
+a:hover, a:focus {
+	text-decoration:none;
+}
+a:focus {
+	color:none;
+}
+.bgp {
+	background: #FFF;
+
+}
+.hef {
+	margin: 25px auto;
+}
+.navbar-default {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  margin-top: 65px;
+}
+.navbar-nav li a {
+  border-left: 1px solid #b3211e;
+}
+.navbar-nav li:last-child a {
+  border-left: none;
+}
+.navbar-nav > li > a {
+color: #000000 !important;
+font-size: 17px;
+padding-bottom: 7px;
+padding-top: 7px;
+}
+.blid {
+	border-bottom: 2px solid #b3211e;
+}
+.wgd {
+  border: 2px solid #9a9a9a;
+	margin: 25px auto;
+}
+.ttsd {
+border-bottom: 2px solid #919191;
+color: #b3211e;
+font-size: 16px;
+margin: 5px 15px 0;
+padding-bottom: 15px;
+padding-top: 15px;
+}
+
+.on_lm {
+    margin: 0;
+    padding: 10px 15px;
+	background: url('../img/bg4.png') no-repeat top left transparent;
+}
+
+.on_lm li {
+    list-style: outside none none;
+}
+
+.on_lm li a {
+border-bottom: 1px solid #cecece;
+color: #000000;
+display: block;
+font-size: 12px;
+padding-bottom: 5px;
+padding-top: 5px;
+	-webkit-transition: all ease 500ms 0s;
+	-moz-transition: all ease 500ms 0s;
+	-o-transition: all ease 500ms 0s;
+	transition: all ease 500ms 0s;
+}
+.on_lm li a:hover {
+border-bottom: 1px solid #b3211e;
+color: #707070;
+
+}
+.social_nw {
+  background: #ffffff none repeat scroll 0 0;
+}
+.bowf {
+background: #001c9e none repeat scroll 0 0;
+color: #ffffff;
+font-size: 13px;
+padding: 13px 5px;
+text-align: center;
+}
+.wrpsoc {
+  margin: 15px 10px;
+  padding: 0 15px 15px;
+}
+
+.wrpsoc li {
+  margin-bottom: 15px;
+}
+.wrpsoc li a {
+background: #447dfe none repeat scroll 0 0;
+color: #ffffff;
+display: block;
+font-size: 25px;
+height: 45px;
+width: 45px;
+}
+.wrpsoc .soc_fac a{
+	background: #3c82f4;
+}
+
+.wrpsoc .soc_snd a {
+	background: #30beff;
+}
+
+.wrpsoc .soc_ins a {
+	background: #4c5b60;
+}
+
+.wrpsoc .soc_lnk a {
+	background: #2f9bfe;
+}
+
+.wrpsoc .soc_ytb a {
+	background: #ff4149;
+}
+
+.wrpsoc .soc_gp a {
+	background: #2d363b;
+}
+#carousel-example-generic {
+  margin: 25px auto;
+}
+.icn_sld {
+	font-size: 33px;
+position: relative;
+top: 46%;
+}
+.bxo {
+  margin: 15px auto;
+}
+
+
+.footer_b {
+  border-bottom: 3px dashed #f8f8f8;	
+  border-top: 3px dashed #f8f8f8;
+  margin-top: 20px;
+  min-height: 200px;
+  padding-top: 25px;
+	padding-bottom: 25px;
+}
+.footer_a {
+background: #001a9f none repeat scroll 0 0;
+margin-top: 15px;
+padding-top: 3px;
+	padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+	
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+}
+
+
